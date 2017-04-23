@@ -1,18 +1,18 @@
 {
-  "name": "btask"
-, "version": "0.0.1"
-, "private": true
-, "dependencies": {
-    "requirejs": "latest"
-  , "connect": "2.7.0"
-  }
-, "devDependencies": {
+  "name": "btask",
+  "version": "0.0.2",
+  "private": true,
+  "dependencies": {
+    "requirejs": "latest",
+    "connect": "2.7.0"
+  },
+  "devDependencies": {
+    "chai": "latest",
+    "grunt": "^0.3.9",
+    "grunt-exec": "0.3.0",
     "mocha": "latest"
-  , "chai": "latest"
-  , "grunt": "0.3.9"
-  , "grunt-exec": "0.3.0"
-  }
-, "scripts": {
+  },
+  "scripts": {
     "grunt": "node_modules/.bin/grunt"
   }
 }
